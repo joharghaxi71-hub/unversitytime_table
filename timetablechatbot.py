@@ -35,7 +35,7 @@ embedder = SentenceTransformer("paraphrase-MiniLM-L3-v2")
 doc_embeddings = embedder.encode(documents, normalize_embeddings=True)
 
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 
 client = Groq()
 
